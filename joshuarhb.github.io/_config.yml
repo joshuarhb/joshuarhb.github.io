@@ -14,24 +14,44 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Josh's Portfolio
+subtitle: >- # this means to ignore newlines until "baseurl:"
+  A personal portfolio to showcase my work and skills.
+name: Joshua Hamilton-Brown
 email: me@joshuarhb.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
   Welcome to my personal portfolio. I want to use this website to display my work and skills for people to get to know me better.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://joshuarhb.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  joshuarhb
-linkedin_username:  joshuarhb
-bluesky_username:  joshuarhb.com
+baseurl: ""
+url: "https://joshuarhb.com"
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: pretty
+
+minimal_mistakes_skin: "mint" # Choose a skin for the theme
+
+
+author:
+  name: "Joshua Hamilton-Brown"
+  avatar: "/assets/images/avatar.png" # Path to your avatar
+  bio: "Software Engineer"
+  location: "Tallinn, Estonia"
+  email: "me@joshuarhb.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/joshuarhb"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/joshuarhb"
+    - label: "Bluesky"
+      icon: "fab fa-bluesky"
+      url: "https://bsky.app/profile/joshuarhb.com"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
