@@ -7,5 +7,5 @@ author_profile: true
 ---
 
 # Welcome
-Hi, I'm Josh, an MSc Software Engineering student at the University of Tartu in Estonia.
+Hi, I'm Josh, studying for a MSc in Software Engineering jointly at the University of Tartu and Tallinn University of Technology in Estonia.
 
