@@ -1,0 +1,44 @@
+---
+layout: splash
+author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header-bg.svg
+  actions:
+    - label: "View My Work"
+      url: "/projects/"
+      class: "btn--primary"
+    - label: "Read My Blog"
+      url: "/posts/"
+      class: "btn--info"
+excerpt: "MSc Software Engineering student passionate about technology, innovation, and continuous learning."
+intro: 
+  - excerpt: "Welcome to my portfolio! I'm Joshua Hamilton-Brown, currently pursuing my Master's degree in Software Engineering at the University of Tartu and Tallinn University of Technology in Estonia. This space showcases my academic journey, development projects, and insights from the world of software engineering."
+feature_row:
+  - image_path: /assets/images/about-thumb.svg
+    alt: "About Me"
+    title: "About Me"
+    excerpt: "Learn about my academic background, technical interests, and journey in software engineering."
+    url: "/about/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/projects-thumb.svg
+    alt: "Projects"
+    title: "My Projects"
+    excerpt: "Explore my development work, academic projects, and technical contributions."
+    url: "/projects/"
+    btn_label: "View Projects"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/blog-thumb.svg
+    alt: "Blog"
+    title: "Blog & Insights"
+    excerpt: "Read my thoughts on software engineering, technology trends, and learning experiences."
+    url: "/posts/"
+    btn_label: "Read Blog"
+    btn_class: "btn--primary"
+---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
